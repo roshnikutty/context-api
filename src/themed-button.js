@@ -1,15 +1,17 @@
-import React from 'react';
-import { ThemeContext } from './theme-context';
+// import React from 'react';
+// import { ThemeContext } from './theme-context';
 
-function ThemedButton(props) {
-    return(
-        <ThemeContext.Consumer>
-            {theme => (<button {...props}
-            style={{backgroundColor: theme.background}}/>)} 
-        </ThemeContext.Consumer>
-    )
-}
+// function ThemedButton(props) {
+//     return(
+//         <ThemeContext.Consumer>
+//             {theme => (<button {...props}
+//             style={{backgroundColor: theme.background,
+//                 height : 50,
+//                 width: 100}}/>)} 
+//         </ThemeContext.Consumer>
+//     )
+// }
 
-//background property of whichever theme (dark or light) is passed on in the consumer
+// //background property of whichever theme (dark or light) is passed on in the consumer
 
-export default ThemedButton;
+// export default ThemedButton;
